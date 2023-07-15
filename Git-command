@@ -102,6 +102,8 @@ git commit -a -m "message" # To add any changes in your local and then commit it
 
 git push origin --all # This will push changes from all branches in your local repo to the remote repo
 
+git remote add <name> <url> this will push the command to git hub
+
 git fetch <remote> # Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository
 
 git fetch <remote> <branch>  # Same as the above command, but only fetch the specified branch.
